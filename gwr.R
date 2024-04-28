@@ -25,5 +25,5 @@ df<-na.omit(df)
 bandwidth <- gwr.sel(et_v ~ dem_v + slope_v + aspect_v + forest_v+ ag_v + urban_v + twi, data=df, coords=cbind(df$lon, df$lat))
 
 # Fit the GWR model
-gwr_model <- gwr(et_v ~ dem_v + slope_v + aspect_v + forest_v+ ag_v + urban_v +twi , data=df, bandwidth=bandwidth, coords=cbind(data_df$lon, data_df$lat), hatmatrix=TRUE)
+gwr_model <- gwr(et_v ~ dem_v + slope_v + aspect_v + forest_v+ ag_v + urban_v +twi , data=df, bandwidth=bandwidth, coords=cbind(df$lon, df$lat), hatmatrix=TRUE)
 
