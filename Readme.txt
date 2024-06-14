@@ -8,4 +8,4 @@ Step3: extract daily ET from nc files
 extract_dailyetr_from_gridmet.R
 
 Step4: calculate et ratio or fraction (eta/etref)
-use 
+generate_etratio.R
