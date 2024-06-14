@@ -9,3 +9,7 @@ extract_dailyetr_from_gridmet.R
 
 Step4: calculate et ratio or fraction (eta/etref)
 generate_etratio.R
+(slow data processing; you may consider Python or ArcGIS for this process)
+
+
+
