@@ -6,6 +6,8 @@ install.packages("ncdf4")
 library(raster)
 library(ncdf4)
 
+#set working directory
+#setwd("C:/gridmet")
 
 # Replace "etr_2019.nc" with your NetCDF file
 inputfile <- 'etr_2019.nc'
